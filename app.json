@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "@openfort/expo-sample",
-    "slug": "expo-sample",
+    "name": "@openfort/gnosis-pay-sample",
+    "slug": "gnosis-pay-sample",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,9 +9,9 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
+      "bundleIdentifier": "com.openfort.gnosispay",
       "usesAppleSignIn": true,
       "supportsTablet": true,
-      "bundleIdentifier": "com.openfort.exposample",
       "infoPlist": {
         "NSAppTransportSecurity": {
           "NSAllowsArbitraryLoads": true
@@ -19,6 +19,7 @@
       }
     },
     "android": {
+      "package": "com.openfort.gnosispay",
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
@@ -31,8 +32,8 @@
       "favicon": "./assets/images/favicon.png"
     },
     "extra": {
-      "openfortPublishableKey": "pk_test_bc3f58b0-fb61-5829-abaa-26ab039179ae",
-      "openfortShieldPublishableKey": "a4b75269-65e7-49c4-a600-6b5d9d6eec66"
+      "openfortPublishableKey": "pk_test_3f5bee75-c566-58b6-9289-ef66b37c58ee",
+      "openfortShieldPublishableKey": "88b56e02-89b6-4ecd-b6c3-4d3af2f5c15b"
     },
     "plugins": [
       "expo-router",
